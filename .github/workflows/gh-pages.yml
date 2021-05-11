@@ -6,7 +6,7 @@ on:
       - main  # 这里的意思是当 main分支发生push的时候，运行下面的jobs，这里先改为github-actions
 
 jobs:
-  deploy: icpfans # 任务名自取
+  deploy:
     runs-on: ubuntu-18.04	# 在什么环境运行任务
     steps:
       - uses: actions/checkout@v2	# 引用actions/checkout这个action，与所在的github仓库同名
