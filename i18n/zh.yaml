@@ -1,0 +1,89 @@
+- id: search_placeholder
+  translation: 输入并按回车键...
+
+- id: our_instagram
+  translation: 我们的Instagram
+
+- id: name
+  translation: 您的名字
+
+- id: email
+  translation: 邮箱地址
+
+- id: subject
+  translation: 主题
+
+- id: message
+  translation: 您的留言在这里
+
+- id: send_message
+  translation: 发送消息
+
+- id: search_result_for
+  translation: 搜索结果
+
+- id: you_may_also_like
+  translation: 您也许也喜欢
+
+- id: most_recent_post
+  translation: 最近的帖子
+
+- id: written_by
+  translation: 作者
+
+- id: read_more
+  translation: 阅读更多
+  
+- id: read_article
+  translation: 阅读文章
+
+- id: showing_posts_from
+  translation: 显示来自帖子
+
+- id: home
+  translation: 首页
+
+- id: search
+  translation: 搜索
+
+- id: categories
+  translation: 类别
+
+- id: tags
+  translation: 标签
+
+- id: social
+  translation: 分享
+
+- id: copyright-text
+  translation: 设计 & 开发
+
+- id: popular_categories
+  translation: 热门版块
+
+- id: about_me
+  translation: 关于我们
+
+- id: featured_post
+  translation: 精选文章
+
+- id: subscribe_newsletter
+  translation: 订阅不可错过的新闻
+
+- id: subscribe
+  translation: 现在订阅
+
+- id: requisition
+  translation: 引用
+
+- id: time_period
+  translation: 时间段
+
+- id: visit_website
+  translation: 访问网站
+
+- id: added
+  translation: 添加
+
+- id: post_related_to
+  translation: 与相关的帖子

@@ -1,0 +1,322 @@
+############################ Default configuration #########################
+# baseURL = "https://demo.gethugothemes.com/northendlab-premium/"
+baseURL = ""
+# site title 
+title = "ICPFans"
+# theme
+theme = "northendlab-icp"
+
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = true
+# post pagination
+paginate = "5"
+# post excerpt
+summaryLength = "10"
+# disqus short name
+disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
+
+# disable language
+disableLanguages = [""] # desable language from here
+
+[outputs]
+home = ["HTML", "AMP", "RSS", "JSON"]
+[markup.goldmark.renderer]
+unsafe= true
+
+######################### Default Parameters ###########################
+[params]
+# logo
+logo = "images/logo.svg"
+# favicon
+favicon = "images/favicon.png"
+# meta data
+author = "Themefisher"
+description = "This is meta description"
+# homepage main section
+mainSection = "posts"
+# contact form action
+contact_form_action = "#" # contact form works with : https://formspree.io
+# copyright
+copyright = "Designed & Developed By [Xingxing Technolgy](https://gethugothemes.com)"
+
+# search *** true or false (if Search is disable Menu will align in Right) ***
+search = true
+header_search_layout = "expanded" # "expanded" or "popupable"
+# Menu align *** "left", "right" or "center" (if Search is disable Menu will align in Right) ***
+menu_align = "center"
+# Blog-details page sidebar
+sidebar = "right" # Sidebar value ("left", "right" or false)
+
+
+######################## Site Variables #########################
+[params.variables]
+# Color Variables
+primary_color = "#E8505B"
+secondary_color = "#9AC4F8"
+text_color = "#666666"
+text_color_dark = "#222222"
+body_color = "#fff"
+border_color = "#ACB9C4"
+black = "#000"
+white = "#fff"
+light = "#F8F8F8"
+
+# font variable
+# Give your font name from google font. add font weight using ":wght@" and separate by ";"
+# example: "Work Sans:wght@400;500;600"
+primary_font = "PT Sans:wght@400;700"
+secondary_font = ""
+icon_font = "Font Awesome 5 Free"
+
+
+######################## sidebar widgets #########################
+[params.widgets]
+sidebar = ["about-me", "categories", "featured-post", "tags", "social", "subscription"]
+# available widget : search,about-me,authors,categories,tags,recent-post,social,promotion,subscription
+
+# preloader
+[params.preloader]
+enable = true
+preloader = "" # use png, jpg, svg or gif format
+
+# Subscription
+[params.subscription]
+enable = true
+# mailchimp subsciption
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+title = "Subscribe for our monthly newsletter."
+input_placeholder = "Enter your email"
+
+# cookies
+[params.cookies]
+enable = false
+expire_days = 2
+
+########################## Plugings ######################################
+# css plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.min.css"
+
+# js plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
+attributes = "crossorigin='anonymous' defer='defer' data-search-pseudo-elements"
+
+
+############################## Social Site ##########################
+[[params.social]]
+icon = "fab fa-facebook" # Fontawesome icon pack https://fontawesome.com/icons
+link = "#facebook"
+[[params.social]]
+icon = "fab fa-twitter" # Fontawesome icon pack https://fontawesome.com/icons
+link = "#twitter"
+[[params.social]]
+icon = "fab fa-github" # Fontawesome icon pack https://fontawesome.com/icons
+link = "#github"
+[[params.social]]
+icon = "fab fa-linkedin" # Fontawesome icon pack https://fontawesome.com/icons
+link = "#linkedin"
+
+
+
+####################### Banner #######################################
+[Languages.en.banner]
+bg_image = "images/banner-shape.png"
+title = "Hi, I'm Cameron William <br> My Blogsite is About <br> <strong>Website & Development</strong>"
+image = "images/banner-image.png"
+
+[Languages.zh.banner]
+bg_image = "images/banner-shape.png"
+title = " 来自ICPFans大神 <br> 最新的Dfinity技术分享 <br> <strong>猩猩科技开发者社区</strong>"
+image = "images/banner-image.png"
+
+######################## About Me Widget ###############################
+[Languages.en.about_me]
+title = "Hi, I'm George A."
+bio = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel in in donec iaculis tempus odio nunc laoreet Libero ullamcorper."
+
+[Languages.zh.about_me]
+title = "介绍"
+bio = "关于我的介绍"
+
+[[params.social_profile]]
+icon = "fab fa-facebook" # Fontawesome icon pack https://fontawesome.com/icons
+link = "#facebook"
+[[params.social_profile]]
+icon = "fab fa-twitter" # Fontawesome icon pack https://fontawesome.com/icons
+link = "#twitter"
+[[params.social_profile]]
+icon = "fab fa-github" # Fontawesome icon pack https://fontawesome.com/icons
+link = "#github"
+[[params.social_profile]]
+icon = "fab fa-linkedin" # Fontawesome icon pack https://fontawesome.com/icons
+link = "#linkedin"
+
+######################## call to action ###############################
+[params.cta]
+enable = true
+image = "images/hugo-muscot.svg"
+title = "Get the best hugo templates"
+description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
+
+[params.cta.button]
+enable = true
+label = "Visit Here"
+link = "https://gethugothemes.com/shop/"
+
+############################# chinese - Main Menu ########################
+[Languages.zh]
+languageName = "中文"
+languageCode = "zh-cn"
+contentDir = "content/chinese"
+weight = 1
+
+[[Languages.zh.menu.main]]
+weight = 1
+url = "/"
+name = "首页"
+  
+  
+[[Languages.zh.menu.main]]
+weight = 3
+url = "about"
+name = "关于"
+  
+[[Languages.zh.menu.main]]
+weight = 4
+url = "contact"
+name = "联系"
+  
+[[Languages.zh.menu.main]]
+weight = 5
+url = "tools"
+name = "工具"
+
+[[Languages.zh.menu.main]]
+weight = 6
+url = "#"
+name = "文章"
+hasChildren = true
+  
+  [[Languages.zh.menu.main]]
+  parent = "文章"
+  weight = 2
+  url = "tags/tech/"
+  name = "标签"
+  
+  [[Languages.zh.menu.main]]
+  parent = "文章"
+  weight = 4
+  url = "categories/hugo/"
+  name = "类别"
+  
+  [[Languages.zh.menu.main]]
+  parent = "文章"
+  weight = 5
+  url = "elements/"
+  name = "素材"
+
+############################# Footer Menu ########################
+[[Languages.zh.menu.footer]]
+weight = 1
+url = "about/"
+name = "关于"
+
+[[Languages.zh.menu.footer]]
+weight = 3
+url = "privacy/"
+name = "隐私"
+
+[[Languages.zh.menu.footer]]
+weight = 4
+url = "terms-conditions/"
+name = "条款与条件"
+
+
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 2
+
+############################# English - Main Menu ########################
+[[Languages.en.menu.main]]
+weight = 2
+url = "/"
+name = "Home"
+
+  
+[[Languages.en.menu.main]]
+weight = 3
+url = "about"
+name = "About"
+  
+[[Languages.en.menu.main]]
+weight = 4
+url = "contact"
+name = "Contact"
+  
+[[Languages.en.menu.main]]
+weight = 5
+url = "tools"
+name = "Tools"
+
+[[Languages.en.menu.main]]
+weight = 6
+url = "#"
+name = "Pages"
+hasChildren = true
+  
+  [[Languages.en.menu.main]]
+  parent = "Pages"
+  weight = 2
+  url = "tags/tech/"
+  name = "Tag"
+  
+  [[Languages.en.menu.main]]
+  parent = "Pages"
+  weight = 4
+  url = "categories/hugo/"
+  name = "Category"
+  
+  [[Languages.en.menu.main]]
+  parent = "Pages"
+  weight = 5
+  url = "elements/"
+  name = "Elements"
+
+############################# Footer Menu ########################
+[[Languages.en.menu.footer]]
+weight = 1
+url = "about/"
+name = "About"
+
+[[Languages.en.menu.footer]]
+weight = 3
+url = "privacy/"
+name = "Privacy"
+
+[[Languages.en.menu.footer]]
+weight = 4
+url = "terms-conditions/"
+name = "Terms & Conditions"
+

@@ -1,0 +1,12 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/bigspring"]
+	path = themes/bigspring
+	url = https://github.com/themefisher/bigspring-hugo-startup-theme.git
+[submodule "themes/zdoc"]
+	path = themes/zdoc
+	url = https://github.com/zzossig/hugo-theme-zdoc.git
+[submodule "themes/zgeekdoc"]
+	path = themes/zgeekdoc
+	url = https://github.com/thegeeklab/hugo-geekdoc.git
