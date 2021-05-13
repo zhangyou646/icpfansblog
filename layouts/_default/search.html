@@ -9,7 +9,9 @@
             <script>
               var keyword = (window.location.search).substr(3);
               var result = keyword.replace("+", " ");
-              document.write(result);
+              // 中文需要解码
+              var deResult = decodeURIComponent(result);
+              document.write(deResult);
             </script>
           </span>
         </h2>
@@ -28,6 +30,7 @@
 </section>
 
 <!-- Search index -->
-<script>var indexURL = {{"index.json" | absURL}}</script>
+<!-- <script>var indexURL = {{"index.json" | absURL}}</script> -->
+<script>var indexURL = {{"index.json" | absLangURL}}</script>
 
 {{ end }}

@@ -33,7 +33,7 @@
           <img loading="lazy" src="{{ .Params.Image | absURL }}" class="img-fluid w-100 mb-4" alt="{{ .Title | markdownify }}">
           {{ end }}
 
-          <img src="{{ .Params.image | absURL }}">
+          <!-- <img src="{{ .Params.image | absURL }}"> -->
 
 
           <div class="content mb-5">
@@ -45,7 +45,7 @@
           </div>
         </div>
 
-        <div class="block shadow">
+        <!-- <div class="block shadow">
           {{ $related := site.RegularPages.Related . | first 5 }}
           {{ with $related }}
           <h3 class="mb-3">See Also</h3>
@@ -55,14 +55,14 @@
             {{ end }}
           </ul>
           {{ end }}
-        </div>
+        </div> -->
 
-        {{ if site.DisqusShortname}}
-        <div class="block shadow mt-4">
+        <!-- {{ if site.DisqusShortname}} -->
+        <!-- <div class="block shadow mt-4"> -->
           <!-- comments -->
-          {{ template "_internal/disqus.html" . }}
-        </div>
-        {{ end }}
+          <!-- {{ template "_internal/disqus.html" . }} -->
+        <!-- </div> -->
+        <!-- {{ end }} -->
       </div>
 
       <!-- right sidebar -->
