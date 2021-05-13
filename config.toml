@@ -27,7 +27,7 @@ unsafe= true
 # logo
 logo = "images/logo.svg"
 # favicon
-favicon = "images/favicon.png"
+favicon = "images/favicon.ico"
 # meta data
 author = "Themefisher"
 description = "This is meta description"
@@ -36,7 +36,7 @@ mainSection = "posts"
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # copyright
-copyright = "Designed & Developed By [Xingxing Technolgy](https://gethugothemes.com)"
+copyright = "Designed & Developed By [Xingxing Technolgy](https://jovial-villani-56648a.netlify.app)"
 
 # search *** true or false (if Search is disable Menu will align in Right) ***
 search = true
@@ -178,7 +178,7 @@ description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
 [params.cta.button]
 enable = true
 label = "Visit Here"
-link = "https://gethugothemes.com/shop/"
+link = "https://jovial-villani-56648a.netlify.app"
 
 ############################# chinese - Main Menu ########################
 [Languages.zh]
