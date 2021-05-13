@@ -17,8 +17,8 @@ tools_info:
   content: "Blue, Purple, White, Orange"
 
 tools_images:
-- image: "images/tools/figma.jpg"
-- image: "images/tools/figma-lg.jpg"
+- image: "images/tools/figma.jpeg"
+- image: "images/tools/figma.jpeg"
 ---
 
 ## What Is Figma??
