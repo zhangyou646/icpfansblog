@@ -1,5 +1,5 @@
 ############################ Default configuration #########################
-baseURL = "http://blog.kakacare.com"
+baseURL = "https://jovial-villani-56648a.netlify.app"
 # site title 
 title = "ICPFans"
 # theme
